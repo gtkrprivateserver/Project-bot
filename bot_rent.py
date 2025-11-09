@@ -10,7 +10,7 @@ import asyncio
 # ==================== Environment ====================
 TOKEN_RENT = os.getenv("DISCORD_TOKEN_RENT")
 BOT_CLIENT_ID = os.getenv("BOT_CLIENT_ID")
-OWNER_CONTACT = os.getenv("OWNER_CONTACT", "https://discord.com/users/OWNER_ID")
+OWNER_CONTACT = os.getenv("OWNER_CONTACT", "https://onedevofficial.vercel.app")
 ADMIN_IDS = [int(a) for a in os.getenv("ADMIN_IDS", "").split(",") if a]
 BRIDGE_CHANNEL_ID = int(os.getenv("BRIDGE_CHANNEL_ID", 0))
 
